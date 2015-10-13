@@ -1,0 +1,253 @@
+pnorm(40, 50, 5)
+pnorm(40, 55, 5)
+pnorm(40, 50, 5)
+pnorm(40, 48, 5)
+pnorm(40, 49, 5)
+5/sqrt(3)
+pnorm(40, 49, 5/sqrt(3))
+pnorm(40, 45, 5/sqrt(3))
+pnorm(40, 44, 5/sqrt(3))
+pnorm(40, 46, 5/sqrt(3))
+pnorm(40, 45, 5/sqrt(3))
+?distributions
+qbinom(0.975, 250, 0.5)
+qbinom(0.975, 1500, 0.5)
+pbinom(788,1500, 0.55)
+qbinom(0.975, 250, 0.5)
+qbinom(0.975, 1400, 0.5)
+pbinom(737,1500, 0.55)
+pbinom(737,1400, 0.55)
+pbinom(700, 0.55)
+qbinom(0.975, 1300, 0.5)
+pbinom(685,1300, 0.55)
+pbinom(140, 250, 0.55)
+pbinom(140, 250, 0.5)
+qbinom(140, 250, 0.5)
+dbinom(140, 250, 0.5)
+dbinom(140, 250, 0.55)
+a = 0.048
+b = 0.0084
+a/ (a+b)
+qnorm(0.96, 40, 5/sqrt(3))
+?distributions
+dt(2, 15)
+pt(2, 15)
+qt(2, 15)
+pt(2, 15)
+pt(0,15)
+1 - pt(2,15)
+-4/12 * sqrt(55)
+21/6
+25/12
+sqrt(25/12)
+91/6 - 3.5^2
+sqrt(2.9)
+nchoose
+nchooser
+combn
+combn(12,9)
+?combn
+combn(10, 2)
+choose(3,2)
+choose(3,1)
+choose(3,0)
+choose(12,9)
+0.5^12
+0.5^12 * choose(12,9)
+?distributions
+pbinom(9,12)
+pbinom(9,12,0.5)
+qbinom(0.95, 12, 0.5)
+pbinom(8,12,0.5)
+pbinom(12,12,0.5)
+pbinom(11,12,0.5)
+pbinom(9,12,0.5)
+pbinom(3,12,0.5)
+pbinom(2,12,0.5)
+pbinom(9,12,0.5)
+pnbinom(9,12,0.5)
+pnbinom(3,12,0.5)
+dnbinom(5,3,0.5)
+dnbinom(9,3,0.5)
+dnbinom(8,3,0.5)
+x <- seq(0,50, by=1)
+x
+y
+y = dbinom(x,50,0.5)
+y
+plot(x,y)
+y = dbinom(x,50,0.5)
+y = pnbinom(x,50,0.5)
+plot(x,y)
+x <- seq(0,100,by=1)
+y = pnbinom(x,50,0.5)
+plot(x,y)
+y = dnbinom(x,50,0.5)
+plot(,xy)
+plot(x,y)
+y = dnbinom(9,3,0.5)
+plot(x,y)
+y = dnbinom(x,3,0.5)
+plot(x,y)
+y = pnbinom(x,3,0.5)
+y
+pnbinom(9,3,0.5)
+pnbinom(8,3,0.5)
+choose
+choose(12,9)
+choose(11,3)
+x <- [1,2,34]
+x <- (1,2,3)
+x <- c(1,2,3)
+x
+std(x)
+sd(x)
+x <- c(1.76, -2.28, -0.56, 1.46, 0.59, 1.26, -1.94, -0.79, -0.86, -1.41, 2.07, 1.3)
+x
+std(x)
+sd(x)
+1.529623^2
+*11
+1.529623^2 * 11
+?distributions
+pchisq(0.05, 11)
+pchisq(25.7, 11)
+qchisq(25.7, 11)
+qchisq(0.95, 11)
+a <- c(7,13,12,9,9,13,11,10,16)
+a
+sum(a)
+a = a/sum(a)
+a
+b = c(0.301, 0.176, 0.125, 0.097, 0.079, 0.067, 0.058, 0.051, 0.046)
+b
+diff
+sq_err = (a-b)^2
+sq_err
+sq_err = (a-b)^2/b
+sq_err
+sum(sq_err)
+?distributions
+a-b
+pchisq(0.627, 8)
+-0.802, 0.457, 0.972, 0.044, 0.318, -1.380, 0.111,#
+-0.023, -0.700, -1.977, -0.497, 1.471, -1.314, -0.078,#
+-0.505, 0.583, 1.363, -1.863, -2.105, 0.488
+x <- c()-0.802, 0.457, 0.972, 0.044, 0.318, -1.380, 0.111,#
+-0.023, -0.700, -1.977, -0.497, 1.471, -1.314, -0.078, -0.505, 0.583, 1.363, -1.863, -2.105, 0.488)
+x <- c(-0.802, 0.457, 0.972, 0.044, 0.318, -1.380, 0.111,-0.023, -0.700, -1.977, -0.497, 1.471, -1.314, -0.078, -0.505, 0.583, 1.363, -1.863, -2.105, 0.488)
+y <- c(9.019, 9.852, 7.947, 9.465, 10.060, 10.508, 9.506,9.540, 10.218, 9.407, 11.455, 11.422, 7.698, 9.972,10.928, 11.577, 10.376, 8.605, 9.347, 10.715
+)
+y
+x
+var(x)
+var(x)/var(y)
+?distributions
+pf(0.97, 19, 19)
+qf(0.97, 19, 19)
+qf(0.95, 19, 19)
+var.test
+var.test(x,y)
+ncomb
+?distributions
+dbinom
+dbinom(32, 595, 0.5)
+32/595
+install.packages("ggplot2")
+ls
+help.start()
+x <- rnorm(50)
+x
+y <- rnorm(x)
+x
+y
+plot(x,y)
+ls()
+rm(x,y)
+x <- 1:20
+w <- 1 + sqrt(x)/2
+w
+dummy <- data.frame(x=x, y=x+ rnorm(x)*w)
+dummy
+fm <- lm(y ~ x, data=dummy)
+summary(fm)
+ggplot
+fml <- lm(y ~ x, data=dummy, weight=1/w^2)
+summary(fml)
+attach(dummy)
+lrf <- lowess(x,y)
+lrf
+plot(x,y)
+lines(x, lrf$y)
+plot(x,y)
+lines(x, lrf$y)
+library(ggplot)
+installed.packages()
+library(ggplot2)
+R.version
+set
+setwd(dir='Desktop/projects/whitehouse_pay/')
+ls
+list.files()
+setwd(dir='python/')
+ls
+list.files()
+cd ..
+setwd(dir='../R')
+list.files()
+file.edit('jremp_outcomes_hist.R')
+source('jremp_outcomes_hist.R')
+source('jremp_outcomes_hist.R')
+df$Bin
+table(df$Bin)
+191 + 42 + 15 + 10 + 5
+191/263
+1 - 191/263
+ls
+list.files()
+file.edit('jremp_outcomes_hist.R')
+source('jremp_outcomes_hist.R')
+file.edit('newreturn_jremp_timeplot.R')
+source('newreturn_jremp_timeplot.R')
+file.edit('salary_age_scat.R')
+file.edit('jremp_outcomes_hist.R')
+file.edit('jremp_timeplot.R')
+source('jremp_timeplot.R')
+file.edit('promotion_rate_hist.R')
+source('promotion_rate_hist.R')
+file.edit('salary_served_scat.R')
+source('salary_served_scat.R')
+file.edit('years_served_hist.R')
+source('years_served_hist.R')
+list.files()
+file.edit('jremp_outcomes_hist.R')
+file.edit('promotion_rate_hist.R')
+source('jremp_outcomes_hist.R')
+source('jremp_outcomes_hist.R')
+source('jremp_outcomes_hist.R')
+source('jremp_outcomes_hist.R')
+source('jremp_outcomes_hist.R')
+source('jremp_outcomes_hist.R')
+list.files()
+file.edit('newreturn_jremp_timeplot.R')
+file.edit('newreturn_jremp_timeplot.R')
+source('newreturn_jremp_timeplot.R')
+file.edit('wh2015_salary_hist.R')
+file.edit('wh2015_salary_hist.R')
+mydata = read.csv("../proc_data/df2015_forR.csv")
+table(mydata$Gender)
+file.edit('jremp_outcomes_hist.R')
+mydata = read.csv('../proc_data/six_year_outcomes_60.csv')
+mydata
+names(mydata)
+table(mydata$Gender)
+139+124
+139/263
+mydata = read.csv("../proc_data/df2015_forR.csv")
+table(mydata$Gender)
+140/243
+list.files()
+file.edit('years_served_hist.R')
+source('years_served_hist.R')
+file.edit('jremp_outcomes_hist.R')
+source('jremp_outcomes_hist.R')
