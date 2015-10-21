@@ -1,4 +1,4 @@
-# whitehouse_pay (Under construction)
+# whitehouse_pay
 
 Analysis of (2009-2015) White House pay data.  Main presentation contained in <a href="http://nbviewer.ipython.org/github/arhee/whitehouse_pay/blob/master/WH_salary.ipynb">WH_salary.ipynb</a>
 
