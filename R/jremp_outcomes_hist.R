@@ -14,7 +14,14 @@ df$Gender <- revalue(df$Gender, c('female'='Female', 'male'='Male'))
 
 df$Bin <- cut( df$Max_Salary, c(0, 60000, 80000, 100000, 120000, 200000))
 
-p = ggplot(df, aes(x=Bin, fill=Gender)) + geom_bar(binwidth=20000, position='dodge') + scale_fill_manual(values = cols) + scale_x_discrete(labels=c('<$60k','$60-80k', '$80k-$100k','$100k-$120k','$120k+')) + labs(x='Max Salary Achieved', y='Count')  + scale_fill_manual(values = cols) + ggtitle('Max Salary Achieved by 2009-2010 Junior WH Employees')
+p = ggplot(df, aes(x=Bin, fill=Gender)) + 
+  geom_bar(binwidth=20000, position='dodge') + 
+  scale_fill_manual(values = cols) + 
+  scale_x_discrete(labels=c('<$60k','$60-80k', '$80k-$100k','$100k-$120k','$120k+')) + 
+  labs(x='Max Salary Achieved', y='Count')  + 
+  scale_fill_manual(values = cols) + 
+  ggtitle('Max Salary Achieved by 2009-2010 Junior WH Employees') + 
+  theme_minimal()
 
 
 png('../figs/jremp_outcomes_hist.png', width=1200, height=800, res=150)
